@@ -44,6 +44,21 @@ begin
      namaDepan:='Dhea';
      namaTengah:='Salsa';
      namaBelakang:='Billa';
+     usia:=15;
+     IPK:= 3.896572431;
+     nilaiAbjad:='A';
+     cantik:=False;
+
+     //MessageDlg('Judul Pesan',namaDepan + ' ' +
+     //      namaTengah + ' ' + namaBelakang, mtInformation, [mbOK],0);
+     //
+     //MessageDlg('usia',IntToStr(usia), mtInformation, [mbOK],0);
+
+     //MessageDlg('IPK',FloatToStrF(IPK,ffFixed,3,2), mtInformation, [mbOK],0);
+
+     //MessageDlg('Cantik',BoolToStr(cantik), mtInformation, [mbOK],0);
+
+     MessageDlg('Hari ini',FormatDateTime('dddd, dd-MMM-yyyy',now), mtInformation, [mbOK],0);
 
 
 end;
